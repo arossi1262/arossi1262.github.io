@@ -11,3 +11,11 @@ body {
 .navbar-nav {
   margin-left: 1020px;
 }
+.jumbotron {
+  height: 100vh;
+}
+.jumbotron {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
