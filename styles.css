@@ -78,3 +78,18 @@ div.container2 {
     opacity: 1;
   }
 }
+.container2 {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.align-self-center-mr-3 {
+  max-width: 20%;
+  height: auto;
+}
+.media-body {
+  padding: 50px;
+  border-style: double;
+  border-width: 3px;
+  border-color: black;
+}
