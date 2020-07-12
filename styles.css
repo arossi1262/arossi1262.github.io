@@ -12,7 +12,6 @@ body {
 .navbar-nav {
   margin-left: 1020px;
 }
-
 .jumbotron {
   height: 100vh;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/79/San_Francisco%E2%80%93Oakland_Bay_Bridge-_New_and_Old_bridges.jpg");
@@ -38,20 +37,20 @@ div.container2 {
 }
 .rotatingtext:nth-of-type(1) {
   animation-name: rotate;
-  animation-duration: 3s;
-  animation-delay: 1s;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
 }
 
 .rotatingtext:nth-of-type(2) {
   animation-name: rotate;
-  animation-duration: 3s;
-  animation-delay: 3.5s;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
 }
 
 .rotatingtext:nth-of-type(3) {
   animation-name: rotate-last;
-  animation-duration: 3s;
-  animation-delay: 6s;
+  animation-duration: 1.5s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
 }
 
@@ -80,8 +79,8 @@ div.container2 {
 }
 .container2 {
   display: flex;
-  align-items: center;
   padding: 100px;
+  text-align: center;
 }
 .align-self-center-mr-3 {
   max-width: 20%;
