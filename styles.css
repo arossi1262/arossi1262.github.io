@@ -105,4 +105,5 @@ div.container2 {
 .fab {
   font-size: 36px;
   color: black;
+  outline: none;
 }
