@@ -1,8 +1,129 @@
+nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+a.navbar-brand {
+  font-weight: bold;
+  margin-left: 60px;
+}
 body {
-  background-color: lightblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+.jumbotron {
+  height: 100vh;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/79/San_Francisco%E2%80%93Oakland_Bay_Bridge-_New_and_Old_bridges.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.mask {
+  background-color: grey;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.75;
+}
+.hero {
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.headerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 200px;
+}
+.display-4 {
+  font-weight: bolder;
+}
+.subheader {
+  margin-left: -275px;
+  font-weight: bold;
+}
+div.container2 {
+  color: black;
+}
+.rotatingtext {
+  position: absolute;
+  opacity: 0;
+}
+.rotatingtext:nth-of-type(1) {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+
+.rotatingtext:nth-of-type(2) {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+}
+
+.rotatingtext:nth-of-type(3) {
+  animation-name: rotate-last;
+  animation-duration: 1.5s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+  }
+
+  20%,
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotate-last {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.container2 {
+  display: flex;
+  padding: 100px;
+  text-align: center;
+}
+.align-self-center-mr-3 {
+  max-width: 20%;
+  height: auto;
+}
+.media-body {
+  padding: 50px;
+  border-style: double;
+  border-width: 3px;
+  border-color: black;
+}
+.container3 {
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+
+.fab {
+  font-size: 36px;
+  color: black;
+  outline: none;
+}
+.form-style {
+  padding: 100px 50px;
 }
