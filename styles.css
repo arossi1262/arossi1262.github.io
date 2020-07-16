@@ -122,8 +122,14 @@ div.container2 {
   border-style: double;
   border-width: 3px;
   border-color: black;
+  text-align: justify;
 }
+
 .container3 {
+  text-align: center;
+}
+.form-header {
+  font-weight: bolder;
   text-align: center;
 }
 .btn {
