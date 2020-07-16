@@ -124,3 +124,6 @@ div.container2 {
   color: black;
   outline: none;
 }
+.form-style {
+  padding: 100px 50px;
+}
