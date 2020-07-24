@@ -109,13 +109,12 @@ div.container2 {
   }
 }
 .container2 {
-  display: flex;
   padding: 100px;
   text-align: center;
   background-color: #f7f7f7;
 }
-.align-self-center-mr-3 {
-  max-width: 20%;
+.proPic {
+  width: 100%;
   height: auto;
 }
 .media-body {
